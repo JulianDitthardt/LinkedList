@@ -15,11 +15,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7f38e3a-1bef-46cd-843d-77db34bc3da6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitTests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unitTests.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="f7f38e3a-1bef-46cd-843d-77db34bc3da6" name="Default Changelist" comment="Added additional tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +26,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/googletest" />
   </component>
   <component name="ProjectId" id="1ywXseaxJUKNG7t4JBLZMOlkOTZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -52,6 +48,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="CMake Application.LinkedLists">
     <configuration name="ExampleTests.Dem" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinkedLists" TARGET_NAME="LinkedLists" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LinkedLists" RUN_TARGET_NAME="LinkedLists" TEST_CLASS="ExampleTests" TEST_METHOD="Dem" TEST_MODE="SUITE_TEST">
@@ -110,8 +107,16 @@
       <workItem from="1633163833344" duration="18000" />
       <workItem from="1633163863694" duration="3101000" />
       <workItem from="1633231017408" duration="148000" />
-      <workItem from="1633233751154" duration="336000" />
+      <workItem from="1633233751154" duration="763000" />
     </task>
+    <task id="LOCAL-00001" summary="Added additional tests">
+      <created>1633234368919</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633234368919</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,5 +133,13 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/googletest" />
+    </ignored-roots>
+    <MESSAGE value="Added additional tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added additional tests" />
   </component>
 </project>
