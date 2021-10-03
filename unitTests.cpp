@@ -7,6 +7,7 @@
 
 
 TEST(linkedTests,testRemoveLast){
+    // Tests the functionality of the peek last and remove last functions
     LinkedList a;
     a.insertLast(1);
     a.insertLast(2);
@@ -20,6 +21,7 @@ TEST(linkedTests,testRemoveLast){
 }
 
 TEST(linkedTests,testRemoveFirst){
+    // Tests the functionality of the peek first and remove first functions
     LinkedList a;
     a.insertFirst(1);
     a.insertFirst(2);
@@ -32,6 +34,7 @@ TEST(linkedTests,testRemoveFirst){
 }
 
 TEST(linkedTests,Iteration){
+    // Tests the functionality of the findIndex and findData functions
     LinkedList a;
     a.insertLast(1); // Index 0
     a.insertLast(2); // Index 1
@@ -46,4 +49,22 @@ TEST(linkedTests,Iteration){
     int testData = a.findData(testIndex);
     EXPECT_EQ(3,testData);
 }
+
+TEST(linkedTests,listReversal){
+    // Tests the functionality of reversing the linked List
+    LinkedList a;
+    a.insertLast(1);
+    a.insertLast(2);
+    a.insertLast(3);
+    a.insertLast(4);
+    a.insertLast(5);
+
+    EXPECT_EQ(a.peekFirst(),1);
+
+    a.reverseList();
+
+    EXPECT_EQ(a.peekFirst(),5);
+}
+
+
 

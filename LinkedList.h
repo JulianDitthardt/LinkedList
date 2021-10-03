@@ -61,7 +61,7 @@ public:
     }
 
     void reverseList(){
-
+        // Reverses the linked list
         node* cur = head;
 
         node* previous;
@@ -95,6 +95,7 @@ public:
     }
 
     int findIndex(int targetData){
+        // Finds the index of the target data (using zero indexing)
         node* temp = head;
         int index = 0;
 
@@ -106,6 +107,7 @@ public:
     }
 
     int findData(int targetIndex){
+        // Finds the data give an index (using zero indexing)
         node* temp = head;
         for (int i=0;i < targetIndex; i++){
             temp = temp->next;
